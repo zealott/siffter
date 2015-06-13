@@ -1,0 +1,75 @@
+.info
+{
+	display:none;
+}
+
+.img-thumbnail
+{
+	max-height: 41px;
+}
+ul.filter{
+	border-bottom:1px solid #e0e0e0;
+	border-top:1px solid #e0e0e0;
+	height:48px;
+	margin-left:-39px;
+	padding-left:20px;
+}
+
+ul.filter li{float:left;position:relative;}
+ul.filter li.one{width:24%;}
+ul.filter li.two{width:17%;}
+ul.filter li.three{width:18%;}
+ul.filter li.four{width:17%;}
+ul.filter li.five{width:17%;}
+ul.filter li.six{width:7%;}
+
+ul.filter li a{
+	background:url(../images/arrow-7x10-bt-blue.png) no-repeat 90% 20px;
+	border-right:1px solid #e0e0e0;
+	color:#252525;
+	display:block;
+	font-size:13px;
+	font-weight:bold;
+	line-height:48px;
+	padding:0 50px 0 20px;
+	text-decoration:none;
+}
+
+ul.filter li > a:hover{background:#ECECEC url(../images/arrow-7x10-bt-blue.png) no-repeat 90% 20px;}
+ul.filter li.open > a{background:#ECECEC url(../images/arrow-7x10-tp-blue.png) no-repeat 90% 20px;}
+ul.filter li.reload a{
+	background:url(../images/icon-reload.png) no-repeat center center;
+	border:none;
+	overflow:hidden;
+	padding:0;
+	text-indent:-9999px;
+}
+ul.filter li.reload a:hover{background:#ECECEC url(../images/icon-reload.png) no-repeat center center;}
+ul.filter div.scroll{
+	background:#fff;
+	border:1px solid #e0e0e0;
+	box-shadow:0px 2px 8px #8a8a8a;
+	display:none;
+	height:132px;
+	left:-1px;
+	padding:5px 0;
+	position:absolute;
+	top:48px;
+	width:200px;
+	z-index:999;
+}
+
+div.scroll .mCSB_container{width:200px;}
+ul.filter div.scroll ul{margin:0;}
+ul.filter div.scroll ul li{background:none;float:none;display:block;}
+ul.filter div.scroll ul li a:hover{background:#06b5e7;}
+ul.filter div.scroll ul li a{
+	background:none;
+	border-right:none;
+	display:block;
+	float:none;
+	font-size:12px;
+	line-height:14px;
+	padding:4px 10px 4px 20px;
+	width:auto;
+}
